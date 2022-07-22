@@ -27,7 +27,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: myartifact
-        path: build/libs/devOpsTraining-0.0.1-SNAPSHOT.jar
+        path: build/libs/cicdstudy-0.0.1-SNAPSHOT.jar
             
   publish:
   
@@ -48,7 +48,7 @@ jobs:
         name: myartifact
         
     - run: ls -lrt
-    - run: aws s3 cp devOpsTraining-0.0.1-SNAPSHOT.jar s3://devops-jiem-bucket-ugaji1/newapp-${GITHUB_RUN_ID}.jar
+    - run: aws s3 cp cicdstudy-0.0.1-SNAPSHOT.jar s3://devops-jiem-bucket-ugaji1/newapp-${GITHUB_RUN_ID}.jar
     
   deploy:
   
