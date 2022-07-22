@@ -74,7 +74,7 @@ jobs:
           
           aws -version
           
-          aws s3 cp s3://devops-jiem-bucket/newapp-${{ steps.deploy.outputs.GITHUB_RUN_ID }}.jar app.jar
+          aws s3 cp s3://devops-jiem-bucket-ugaji1/newapp-${{ steps.deploy.outputs.GITHUB_RUN_ID }}.jar app.jar
           
           java -jar app.jar &            
     
