@@ -45,7 +45,7 @@ jobs:
     - run: aws s3 ls
     - uses: actions/download-artifact@v3
       with:
-        name: myartifact
+        name: myartifact1
         
     - run: ls -lrt
     - run: aws s3 cp devOpsTraining-0.0.1-SNAPSHOT.jar s3://devops-jiem-bucket/newapp-${GITHUB_RUN_ID}.jar
