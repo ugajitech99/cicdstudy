@@ -5,7 +5,7 @@ name: Java CI
 
 on:
   push:
-    branches: [ assignment1_github ]
+    branches: [ main ] 
 
 jobs:
   build:
