@@ -1,0 +1,10 @@
+-------------------------- Welcome to DevOPS Training Repository --------------------------
+
+
+This repository will be used by all trainees to work on the assignments during training. 
+
+In order to easily manage everyone's work, each user will be required to create a branch with his/her github username and use the same for assignments. Feel free to do this at your free time before training.
+In case anybody needs help in doing so, here is the command to create and checkout your branch
+
+git checkout -b <username>
+
