@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="en"
+	ng-app="SpringMusic">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Currency Rate">
+<meta name="title" content="Currency Rate">
+<link rel="shortcut icon" href="assets/favicon.ico">
+<title>Purandare Prakshan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Poppins">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.1.1/css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/w3.css">
+
+
+<style>
+body, h1, h2, h3, h4, h5 {
+	font-family: "Poppins", sans-serif
+}
+
+body {
+	font-size: 16px;
+}
+
+.w3-half img {
+	margin-bottom: -6px;
+	margin-top: 16px;
+	opacity: 0.8;
+	cursor: pointer
+}
+
+.w3-half img:hover {
+	opacity: 1
+}
+</style>
+
+<style>
+body {
+	margin: 0;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #f1f1f1;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+	border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+	border-bottom: 3px solid red;
+}
+</style>
+
+<style>
+.mySlides {
+	display: none;
+}
+</style>
+
+<style>
+div {
+	text-align: justify;
+	text-justify: inter-word;
+}
+</style>
+
+<style>
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-google {
+	background: #dd4b39;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+</style>
+</head>
+<body>
+
+	<!-- Top menu on small screens -->
+	<header class="w3-display-container w3-content w3-center"
+		style="max-width: 1500px">
+
+		<img class="w3-image" src="assets/img/maxresdefault.jpg" alt="Me"
+			width="1500" height="600">
+		
+		<div style="margin-top: 18%; margin-left: 6%"
+			class="w3-display-left w3-padding-large w3-border w3-wide w3-text-light-grey w3-left">
+			<img class="w3-image" src="assets/img/pp.jpg" alt="Me" width="200"
+				height="200">
+		</div>
+
+		<!-- Navbar (placed at the bottom of the header image) -->
+		<div
+			class="w3-bar w3-light-grey w3-round w3-display-bottomleft w3-hide-small"
+			style="bottom: -16px; margin-left: 6%">
+			<a href="#" class="w3-bar-item w3-button">Home</a> <a
+				href="https://www.instamojo.com/shubhankark/"
+				class="w3-bar-item w3-button" target="_blank">Payment</a><a
+				href="https://www.facebook.com/OfficialChintooPage"
+				class="w3-bar-item w3-button" target="_blank">facebook</a> <a
+				href="https://www.youtube.com/channel/UCv7iSimxmUSVx2qYutHCGJQ"
+				class="w3-bar-item w3-button" target="_blank">YouTube</a>
+		</div>
+	</header>
+
+	<!-- Overlay effect when opening sidebar on small screens -->
+	<div class="w3-overlay w3-hide-large" onclick="w3_close()"
+		style="cursor: pointer" title="close side menu" id="myOverlay"></div>
+
+	<!-- !PAGE CONTENT! -->
+
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous"
+		src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&autoLogAppEvents=1&version=v3.2&appId=2264590680271985"></script>
+	<!-- Sidebar/menu -->
+
+	<div class="container">
+		<div class="w3-display-container" style="margin-bottom: 50px">
+			<!-- <img src="assets/img/chintoo.jpg" style="width: 100%"> -->
+			<div
+				class="w3-display-bottomright w3-container w3-amber w3-hover-orange w3-hide-small"
+				style="bottom: 10%; opacity: 0.7; width: 40%"></div>
+		</div>
+		<div class="w3-main">
+			<!-- Header -->
+			<div class="w3-container" id="showcase">
+
+
+				<!-- <hr style="width: 50px; border: 5px solid red" class="w3-round"> -->
+				<p class="w3-xxlarge w3-text-black"
+					style="font-family: Comic Sans MS;">
+
+					<b><font size="5">चिंटूचे रु. 275 प्रत्येकी असे 2 मग्ज
+							म्हणजेच रु. 550 किंमतीचे 2 मग्ज फेसबुक वरील चिंटू प्रेमींसाठी रु.
+							200 मध्ये फक्त! आणि ते ही अगदी घरपोच हवे असल्यास कुरिअर चार्जेस
+							रु. 60 जादा. म्हणजेच रु. 260 मध्ये घरपोच (फक्त भारतात). या साठी
+							एवढंच करायचं, आपल्या फेसबूक वरून हि पोस्ट लाईक आणि शेअर करायची.
+							(कॉमेंट केली तरी चालेल!) लाईक आणि शेअर केल्यावर यातील पेमेंटचा
+							option ओपन होईल. यावरून आपण पैसे भरू शकता. एकदा लाईक आणि शेअर
+							केल्यावर आपण कितीही ‘मग्ज’ची order देऊ शकता. किंवा option ओपन
+							झाल्यावर एक पत्ता येईल तेथे जाऊन रोख रु 200 देऊन 2 किंवा त्या
+							पटीत अधिक मग खरेदी करू शकता. हि योजना 25 एप्रिल 2019 पर्यंतच
+							उपलब्ध आहे. </font></b>
+				</p>
+			</div>
+
+			<div class="fb-post" style="margin-left: 15%; margin-top: 5%"
+				data-href="https://www.facebook.com/OfficialChintooPage/posts/2161104467278673"
+				data-width="750" data-show-text="true">
+				<blockquote
+					cite="https://developers.facebook.com/OfficialChintooPage/posts/2161104467278673"
+					class="fb-xfbml-parse-ignore">
+					Posted by <a href="https://www.facebook.com/OfficialChintooPage/">Chintoo</a>
+					on&nbsp;<a
+						href="https://developers.facebook.com/OfficialChintooPage/posts/2161104467278673">Tuesday,
+						April 9, 2019</a>
+				</blockquote>
+			</div>
+			<div class="fb-post" style="margin-left: 15%; margin-top: 5%;"
+				data-href="https://www.facebook.com/OfficialChintooPage/posts/2161103793945407"
+				data-width="750" data-show-text="true">
+				<blockquote
+					cite="https://developers.facebook.com/OfficialChintooPage/posts/2161103793945407"
+					class="fb-xfbml-parse-ignore">
+					Posted by <a href="https://www.facebook.com/OfficialChintooPage/">Chintoo</a>
+					on&nbsp;<a
+						href="https://developers.facebook.com/OfficialChintooPage/posts/2161103793945407">Sunday,
+						April 7, 2019</a>
+				</blockquote>
+			</div>
+
+			<hr>
+
+			<div class="w3-content w3-section"
+				style="max-width: 1000px; margin-top: 5%; margin-bottom: 5%">
+				<img class="mySlides" src="assets/img/ocean.jpg" style="width: 100%">
+				<img class="mySlides" src="assets/img/mountains2.jpg"
+					style="width: 100%"> <img class="mySlides"
+					src="assets/img/mountainskies.jpg" style="width: 100%">
+			</div>
+
+			<script>
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";
+					}
+					myIndex++;
+					if (myIndex > x.length) {
+						myIndex = 1
+					}
+					x[myIndex - 1].style.display = "block";
+					setTimeout(carousel, 2000); // Change image every 2 seconds
+				}
+			</script>
+
+
+			<div
+				class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top"
+				id="Payment">
+				<h3 class="w3-center">Payment</h3>
+				<hr>
+				<p>Pay Here. sample text if required ....s</p>
+				<a href="https://www.instamojo.com/shubhankark/" target="_blank">
+					<input type="button" class="w3-button w3-block w3-dark-grey"
+					ng-href="https://www.instamojo.com/shubhankark/" id="button-click"
+					value="Pay here!" target="_blank" />
+				</a>
+			</div>
+
+
+			<div id="body" class="row">
+				<div class="row"
+					style="margin-left: 1%; margin-right: 1%; margin-top: 1%; margin-bottom: 1%">
+					<ng-view></ng-view>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="topnav">
+		<a class="active" href="#home">Home</a> <a
+			href="https://www.instamojo.com/shubhankark/" target="_blank">Payment</a>
+		<a href="https://www.facebook.com/OfficialChintooPage"
+			class="fa fa-facebook" style="margin-left: 67%" target="_blank"></a>
+		<a href="#" class="fa fa-google"></a> <a
+			href="https://www.youtube.com/channel/UCv7iSimxmUSVx2qYutHCGJQ"
+			class="fa fa-youtube" target="_blank"></a> <a href="#"
+			class="fa fa-instagram" target="_blank"></a>
+
+	</div>
+
+
+	<script type="text/javascript" src="webjars/jquery/2.1.0/jquery.min.js"></script>
+	<script
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="webjars/angularjs/1.2.16/angular.js"></script>
+	<script type="text/javascript"
+		src="webjars/angularjs/1.2.16/angular-resource.js"></script>
+	<script type="text/javascript"
+		src="webjars/angularjs/1.2.16/angular-route.js"></script>
+	<script type="text/javascript"
+		src="webjars/angular-ui/0.4.0/angular-ui.js"></script>
+	<script type="text/javascript"
+		src="webjars/angular-ui-bootstrap/0.10.0/ui-bootstrap.js"></script>
+	<script type="text/javascript"
+		src="webjars/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.js"></script>
+
+	<script type="text/javascript"
+		src="webjars/bootstrap/3.1.1/js/bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/jsonTable.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript" src="assets/js/albums.js"></script>
+	<script type="text/javascript" src="assets/js/errors.js"></script>
+	<script type="text/javascript" src="assets/js/info.js"></script>
+	<script type="text/javascript" src="assets/js/status.js"></script>
+</body>
+
+
+
+
+
+</html>
+

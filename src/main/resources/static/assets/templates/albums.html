@@ -1,0 +1,39 @@
+<div id="currencies" ng-init="init()">
+
+
+
+	<div class="row ">
+		<div ng-include src="albumsView"></div>
+	</div>
+
+	<div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top"
+		id="contact">
+
+		<h3 class="w3-center">Contact Us</h3>
+		<h4 class="w3-center">Address :
+			..............................................................</h4>
+		<p>If you have any queries, please write us. All fields are
+			mandatory</p>
+		<form>
+			<label>Name</label><input type="text" class="w3-input w3-border"
+				id="exampleInput" name="userName" ng-model="userName"
+				placeholder="Please enter name" required />
+				
+				<label>Email</label> <input type="email" class="w3-input w3-border" id="exampleInput"
+				name="userEmail" ng-model="userEmail"
+				placeholder="Please enter email" required />
+				
+				<label>Mobile Number</label> <input type="text" class="w3-input w	3-border"
+				id="exampleInput" name="numbermo" ng-model="numbermo"
+				placeholder="Please enter mobile Number" required />
+				
+				<label>Message</label><input type="text" class="w3-input w3-border" id="exampleInput"
+				name="usermsg" ng-model="usermsg" placeholder="Please enter message"
+				required />
+
+			<button type="submit" class="w3-button w3-block w3-dark-grey"
+				ng-click="getLikedPostsByName()">Submit</button>
+
+		</form>
+
+	</div>
